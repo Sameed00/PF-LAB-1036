@@ -1,0 +1,2 @@
+Question 1
+The wrong value is being displayed because an overflow has occured. The stored integer value in the variable is too large for the standard data type to store.
