@@ -1,0 +1,10 @@
+#include &lt;stdio.h&gt;
+int main()
+{
+    int x;
+    x = 5 > 8 ? 10 : 1 != 2 < 5 ? 20 : 30;
+    printf(&quot;Value of x:%d&quot;, x);
+    return 0;
+}
+
+// x is equal to = ( is 5>8? false so 1, then (1 != 2 <5), here 2<5 is evaluated first which is true, so 1 is assigned, and then 1 != 1 is false, so final answer is 30)
